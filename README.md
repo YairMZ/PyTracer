@@ -4,3 +4,13 @@
 
 # PyTracer
 A simple-to-use python trying library to trace code execution
+
+To run tests simply clone, cd into the cloned repo, and run:
+```shell
+python -m pytest
+```
+or
+```shell
+python -m pytest --cov-report=html
+```
+to run also coverage tests
